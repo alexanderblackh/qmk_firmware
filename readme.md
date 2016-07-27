@@ -1,6 +1,6 @@
 # Alexander's Vault of QMK-powered Custom Keyboards
 
-A fork of the amazing [QMK firmware](https://github.com/jackhumbert/qmk_firmware) because I like designing my own keyboards, sometimes for fun and other times to fit my needs. I've found QMK to be the most satisfying to fill the requirements because of how much love it gets from the community due to it powering [Planck](http://olkb.com/planck/), [Atomic](http://olkb.com/atomic/), and [Preonic](http://olkb.com/preonic/) keyboards, and now many others as well.
+A fork of the amazing [QMK firmware](https://github.com/jackhumbert/qmk_firmware) because I like designing my own keyboards, sometimes for fun and other times to fit my needs. I've found QMK to be the most satisfying to fill the requirements because of how much love it gets from the community due to it powering [Planck](http://olkb.com/planck/), [Atomic](http://olkb.com/atomic/), and [Preonic](http://olkb.com/preonic/) keyboards, and now many others as well. I wanted to open-source my designs as well. As projects reach certain points, I'll upload everything on here. Right now, it's only keymaps, but I plan to include svg's for plates and links to [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/)
 
 ## My Designs
  * [AHB Planck Keymap](/keyboards/planck/keymaps/AHB) - My first custom design. Used this when trying out the Planck. I loved it for everything from the customization at your fingertips to the ortholinear design, but I especially loved the small form-factor, however, I needed more keys.
