@@ -74,13 +74,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 
 // TODO: Map lowered keys to code
+// TODO: On lower, try and find keys/functions/macros to map to keys labeled Trns
 /* Lower
 * ,-------------------------------------------------------------------------------------------------------.
-* | Sleep|  F2  |  F3  | TrkNx| VolUp|   F15 |   Tab   | Delete | TRNS |MsBt2 | MsUp |MsBt3 |MsAcl2| TRNS |
+* | Sleep| Trns | Trns | TrkNx| VolUp|   F15 |   Tab   | Delete | Trns |MsBt2 | MsUp |MsBt3 |MsAcl2| Trns |
 * |------+------+------+------+------+-------------+------+------+------+------+-----+------+------+------|
-* |  _   |   !  |   @  |TrkPly| Mute |   F14 |   Esc   |  Enter | TRNS |MsLft |MsBt1 |MsRgt |MsAcl1| TRNS |
+* | Trns | Trns | Trns |TrkPly| Mute |   F14 |   Esc   |  Enter | Trns |MsLft |MsBt1 |MsRgt |MsAcl1| Trns |
 * |------+------+------+------+------+-------------+------+------+------+------+-----+------+------+------|
-* |  -   |   1  |   2  |TrkPrv| VolDn|   F13 |  CapsLk |  GUI   | TRNS |MsBt3 |MsDwn |MsBt4 |MsAcl0| TRNS |
+* | Trns | Trns | Trns |TrkPrv| VolDn|   F13 |  CapsLk |  GUI   | Trns |MsBt3 |MsDwn |MsBt4 |MsAcl0| Trns |
 * |------+------+------+------+------+-------------+------+------+------+------+-----+------+------+------|
 * | Data | NONE | Ctrl | Alt  | GUI  |ACTIVE |        Space     | NONE | Alt  |TrkPrv|VolDn |VolUp |TrkNx |
 * `-------------------------------------------------------------------------------------------------------'
