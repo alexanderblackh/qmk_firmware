@@ -4,7 +4,7 @@ A fork of the amazing [QMK firmware](https://github.com/jackhumbert/qmk_firmware
 
 ## My Designs
  * [AHB Planck Keymap](/keyboards/planck/keymaps/AHB) - My first custom design. Used this when trying out the Planck. I loved it for everything from the customization at your fingertips to the ortholinear design, but I especially loved the small form-factor, however, I needed more keys.
- * [PPlanck](/keyboards/PPlanck) - The self-dubbed "Programmers Planck". Since the Planck lacked just a few keys, I decided to add a new column on each side, thus multiplying my possibilities.
+ * [PPlanck](/keyboards/PPlanck) - The self-dubbed "Programmers Planck". Since the Planck lacked just a few keys, I decided to add a new column on each side, thus multiplying my possibilities. WIP BUT ALMOST DONE!
  * MORE TO COME
 
 ## Join us at [r/MechanicalKeyboards](https://www.reddit.com/r/MechanicalKeyboards) for more!!

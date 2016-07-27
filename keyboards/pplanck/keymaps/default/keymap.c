@@ -1,10 +1,12 @@
 // This is the canonical layout file for the Quantum project. If you want to add another keyboard,
 // this is the style you want to emulate.
 
+// TODO: Can you delete this portion?
 #include "planck.h"
 #ifdef BACKLIGHT_ENABLE
   #include "backlight.h"
 #endif
+//
 
 // Each layer gets a name for readability, which is then used in the keymap matrix below.
 // The underscores don't mean anything - you can have a layer called STUFF or any other name.
@@ -98,6 +100,7 @@ const uint16_t PROGMEM fn_actions[] = {
 
 };
 
+// TODO: Do I need macros? If so, keep.. If not, delete.
 const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
 {
   // MACRODOWN only works in this function
