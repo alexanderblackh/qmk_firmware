@@ -7,8 +7,6 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
-  const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-
   /* Qwerty
    * ,-------------------------------------------------------------------------------------------------------.
    * |  [   |   Q  |   W  |   E  |   R  |   T   |   Esc  |   Bspc |   Y  |   U  |   I  |   O  |   P  |  ]    |
@@ -42,7 +40,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     {KC_LBRC, KC_Q,  KC_W,  KC_E,  KC_R,  KC_T, /* */  KC_ESC,  KC_BSPC,  /* */   KC_LABK,  KC_PAST,  KC_PPLS, KC_7,  KC_8, KC_9},
     {KC_QUOT, KC_A,  KC_S,  KC_D,  KC_F,  KC_G, /* */  KC_TAB,  KC_ENTER, /* */   KC_RABK,  KC_PSLS,  KC_PMNS, KC_4,  KC_5, KC_6},
     {KC_MINS, KC_Z,  KC_X,  KC_C,  KC_V,  KC_B, /* */  KC_LSFT, KC_RGUI,  /* */   KC_DOT,  KC_PEQL,  KC_0,    KC_1,  KC_2, KC_3},
-    {KC_TRNS, KC_TRNS, KC_LCTL, KC_LALT, KC_LGUI, OSM(mod_MO(3)),  /* */  KC_SPC,  /* */ OSM(mod_MO(0)),  KC_RALT, KC_LEFT, KC_DOWN, KC_UP,  KC_RGHT}
+    {KC_TRNS, KC_TRNS, KC_LCTL, KC_LALT, KC_LGUI, MO(3),  /* */  KC_SPC,  /* */  MO(0),  KC_RALT, KC_LEFT, KC_DOWN, KC_UP,  KC_RGHT}
   },
 
   // TODO: Map raised keys to code
@@ -58,8 +56,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   * `-------------------------------------------------------------------------------------------------------'
    */
   [_RS] = {
-    {KC_F1,   KC_F2,   KC_F3,   KC_F4,   S(KC_9), S(KC_0),    /* */ KC_ESC,  KC_DELETE,   /* */ S(KC_6),  S(KC_7), S(KC_8,) KC_7,  KC_8, KC_9},
-    {KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_QUOT, S(KC_QUOT), /* */ KC_TAB, KC_GRV,      /* */  S(KC_3),  S(KC_4,  S(KC_5), KC_4,  KC_5, KC_6},
+    {KC_F1,   KC_F2,   KC_F3,   KC_F4,   S(KC_9), S(KC_0),    /* */ KC_ESC,  KC_DELETE,   /* */ S(KC_6),  S(KC_7), S(KC_8), KC_7,  KC_8, KC_9},
+    {KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_QUOT, S(KC_QUOT), /* */ KC_TAB, KC_GRV,      /* */  S(KC_3),  S(KC_4),  S(KC_5), KC_4,  KC_5, KC_6},
     {KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_MINS, S(KC_MINS), /* */  KC_LSFT,  KC_ENTER, /* */  S(KC_1),  S(KC_2), KC_0,    KC_1,  KC_2, KC_3},
     {KC_TRNS, KC_TRNS, KC_LCTL, KC_LALT, KC_LGUI, KC_TRNS,    /* */  KC_SPC,  /* */ KC_TRNS,  KC_RALT, KC_LEFT, KC_DOWN, KC_UP,  KC_RGHT}
   },

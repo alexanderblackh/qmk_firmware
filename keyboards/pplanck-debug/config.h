@@ -1,3 +1,7 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+#include "config_common.h"
+
 /*
 Copyright 2012 Jun Wako <wakojun@gmail.com>
 
@@ -28,8 +32,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define MATRIX_COLS 14
 
 /* Planck PCB default pin-out */
-#define COLS (int []){ B6, B2, B3, B1, F7, F6, F5, F4, D3, D2, D1, D0, D4, C6 }
-#define ROWS (int []){ D7, E6, B4, B5 }
+#define MATRIX_COL_PINS {B6, B2, B3, B1, F7, F6, F5, F4, D3, D2, D1, D0, D4, C6 }
+#define MATRIX_ROW_PINS {D7, E6, B4, B5 }
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
