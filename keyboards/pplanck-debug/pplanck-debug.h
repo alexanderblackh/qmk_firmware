@@ -1,5 +1,5 @@
-#ifndef PPLANCK-ATTEMPT_H
-#define PPLANCK-ATTEMPT_H
+#ifndef PPLANCK_DEBUG_H
+#define PPLANCK_DEBUG_H
 
 #include "quantum.h"
 
